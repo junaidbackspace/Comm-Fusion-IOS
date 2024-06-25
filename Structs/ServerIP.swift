@@ -14,10 +14,14 @@ struct ServerResponse: Decodable {
 struct Constants {
 
 //<<<<<<< HEAD
+////<<<<<<< HEAD
     static let serverURL = "http://192.168.255.118:5001"
     static let nodeserverIP = "192.168.255.119"
+////=======
+//    static let serverURL = "http://192.168.169.141:5001"
 //=======
-    static let serverURL = "http://192.168.169.141:5001"
+//    static let serverURL = "http://192.168.57.119:5001"
+//>>>>>>> 2afa9d2 (transcription fetch done)
     static let nodeserverIP = "192.168.31.106"
 //>>>>>>> 340b6af (segment saving issue solved)
 
